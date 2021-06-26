@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* Navbar */
+.navbar-brand {
+  font-family: "Quicksand";
+  color: orange;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand:visited {
+  font-family: "Quicksand";
+  color: orange;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-brand:hover {
+  font-family: "Quicksand";
+  color: orange;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar {
+  background-color:#1e1e1e;
+}
+
+nav .navbar-nav li a{
+  color: rgb(184, 183, 183);
+}
+
+nav .navbar-nav li a:visited {
+  color: rgb(184, 183, 183);
+}
+
+nav .navbar-nav li a:hover {
   color: white;
+  text-decoration: underline;
+  text-decoration-color: orange;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link {
+  text-transform: uppercase;
+  font-family: "Quicksand";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-icons a {
+  color: orange !important;
+}
+.social-icons a:hover {
+  color: white !important;
+}
+
+.navbar-toggler{
+  color: rgb(184, 183, 183);
+  background-color: orange !important;
+}
+
+.navbar-toggler .line{
+  background-color: rgb(184, 183, 183) !important;
+}
+
+/* Body */
+body {
+  background-color: #333333 !important;
 }
