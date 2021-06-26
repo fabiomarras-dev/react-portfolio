@@ -34,6 +34,12 @@ nav .navbar-nav li a:hover {
   text-decoration-color: orange;
 }
 
+nav .navbar-nav li a.active, .navbar-nav li a.active:focus {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
 .nav-link {
   text-transform: uppercase;
   font-family: "Quicksand";
@@ -46,13 +52,14 @@ nav .navbar-nav li a:hover {
   color: white !important;
 }
 
-.navbar-toggler{
-  color: rgb(184, 183, 183);
+.navbar-toggler {
+  color: rgb(184, 183, 183) !important;
   background-color: orange !important;
 }
 
-.navbar-toggler .line{
-  background-color: rgb(184, 183, 183) !important;
+.navbar-toggler i {
+  color: #1e1e1e !important;
+  background-color: orange !important;
 }
 
 /* Body */
