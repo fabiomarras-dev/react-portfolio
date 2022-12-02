@@ -143,14 +143,27 @@ h4 {
 }
 
 /* About Me */
-.thumbnail img {
+.carousel-item img {
   max-height: 100%;
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
-.thumbnail {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
+/* Projects */
+.projects-wrapper {
+  background-color: #1e1e1e;
 }
+
+.projects-image {
+  border: 3px solid;
+  border-color: orange;
+  padding: 0 0.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.projectsimages {
+  width: 15rem;
+  position: relative;
+}
+
