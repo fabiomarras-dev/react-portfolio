@@ -5,19 +5,26 @@ const Projects = () => {
   return (
    <div className='projects-wrapper'>
         <div className='container'>
-            <h1 className='text-uppercase text-center py-5'>Projects</h1>
-            <div className='image-box-wrapper row mx-auto d-block projectsimages'>
-                <img className='projects-image' src={Projeto} alt=""></img>
+            <h1 className='text-center py-5'>My Projects</h1>
+
+            <div className='d-flex row'>
+                <div className='col-sm-5 d-block mx-auto row overflow'>
+                    <img className='projects-image' src={Projeto} alt=""></img>
+                </div>
+                <div className='col-sm-5 d-block mx-auto row overflow'>
+                    <img className='projects-image' src={Projeto} alt=""></img>
+                </div>
             </div>
-            <div className='image-box-wrapper row mx-auto d-block projectsimages'>
-                <img className='projects-image' src={Projeto} alt=""></img>
+
+            <div className='row'>
+                <div className='col-sm-5 d-block mx-auto row overflow'>
+                    <img className='projects-image' src={Projeto} alt=""></img>
+                </div>
+                <div className='col-sm-5 d-block mx-auto row overflow'>
+                    <img className='projects-image' src={Projeto} alt=""></img>
+                </div>
             </div>
-            <div className='image-box-wrapper row mx-auto d-block projectsimages'>
-                <img className='projects-image' src={Projeto} alt=""></img>
-            </div>
-            <div className='image-box-wrapper row mx-auto d-block projectsimages'>
-                <img className='projects-image' src={Projeto} alt=""></img>
-            </div>
+
         </div>
    </div>
   )

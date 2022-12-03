@@ -162,8 +162,13 @@ h4 {
   margin-bottom: 1rem;
 }
 
-.projectsimages {
-  width: 15rem;
-  position: relative;
+.projects-image:hover {
+  opacity: 60%;
+  background-color: white;
+}
+
+/* Overflow Styling */
+.overflow {
+  cursor: pointer;
 }
 
