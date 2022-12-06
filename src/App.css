@@ -186,3 +186,11 @@ span {
 .popup-text {
   color: black !important;
 }
+
+/* media */
+@media(max-width: 768px) {
+  .popup-image {
+  width: 100% !important;
+  }
+  
+}

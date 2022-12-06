@@ -109,6 +109,7 @@ const popupboxConfigProject4 = {
                     <img className='projects-image' src={Projeto} alt=""></img>
                 </div>
             </div>
+            {/* still need to fix this area*/}
             <PopupboxContainer {...popupboxConfigProject1}/>
             <PopupboxContainer {...popupboxConfigProject2}/>
             <PopupboxContainer {...popupboxConfigProject3}/>
