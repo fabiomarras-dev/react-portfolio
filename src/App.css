@@ -142,6 +142,11 @@ h4 {
   color: orange;
 }
 
+span {
+  color: black !important;
+}
+
+
 /* About Me */
 .carousel-item img {
   max-height: 100%;
@@ -172,3 +177,12 @@ h4 {
   cursor: pointer;
 }
 
+/* popup box styling */
+.popup-image {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.popup-text {
+  color: black !important;
+}
