@@ -142,11 +142,6 @@ h4 {
   color: orange;
 }
 
-span {
-  color: black !important;
-}
-
-
 /* About Me */
 .carousel-item img {
   max-height: 100%;
@@ -187,10 +182,34 @@ span {
   color: black !important;
 }
 
+.popupbox-titleBar {
+  color: black !important;
+}
+
 /* media */
 @media(max-width: 768px) {
   .popup-image {
-  width: 100% !important;
+  width: 100%;
   }
   
 }
+
+@media(max-height: 500px) {
+.popupbox-wrapper {
+  height: 90%;
+}
+
+  .popup-image {
+  width: 70%;
+  height: 70%;
+  }
+  
+}
+
+@media(max-width: 1000px) {
+  .popup-image {
+  width: 100%;
+  }
+  
+}
+
