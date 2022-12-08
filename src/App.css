@@ -152,6 +152,7 @@ h4 {
 /* Projects */
 .projects-wrapper {
   background-color: #1e1e1e;
+  padding-bottom: 2rem;
 }
 
 .projects-image {
@@ -213,3 +214,18 @@ h4 {
   
 }
 
+/* contact me */
+.contactMe {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.contactMe .box {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  height: 12rem;
+  border-bottom: 3px solid;
+  border-color: orange;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 1rem;
+}
