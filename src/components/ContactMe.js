@@ -24,7 +24,7 @@ const ContactMe = () => {
                     <div className='col-md-4'>
                         <div className='box'>
                             <i class="fab fa-whatsapp fa-3x"></i>
-                            <h3>What's App</h3>
+                            <h3>WhatsApp</h3>
                             <p>Descrição</p>
                         </div>
                     </div>
