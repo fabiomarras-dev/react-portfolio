@@ -4,7 +4,7 @@ import Author2 from "../fabio2.png";
 
 const AboutMe = () => {
   return (
-    <div className="container py-5">
+    <div id="aboutme" className="container py-5">
         <div className="row">
             <div className="col-lg-6 col-xm-12 mb-5">
               <div id="carouselExampleIndicators" className="carousel slide" data-interval="false">

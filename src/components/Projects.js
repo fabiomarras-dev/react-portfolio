@@ -88,7 +88,7 @@ const popupboxConfigProject4 = {
 }
 
   return (
-   <div className='projects-wrapper'>
+   <div id='projects' className='projects-wrapper'>
         <div className='container'>
             <h1 className='text-center py-5'>My Projects</h1>
 

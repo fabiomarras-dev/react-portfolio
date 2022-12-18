@@ -217,6 +217,9 @@ h4 {
     direction: ltr;
     width: 100%;
   }
+  .experience-wrapper::before {
+    left: 1.25rem;
+  }  
 }
 
 /* Projects */
@@ -302,10 +305,16 @@ h4 {
 
 /* footer */
 .footer {
+  background-color: #1e1e1e;
 
 }
 
 .footer a {
   text-decoration: none;
   color: white;
+}
+
+.footer-row {
+  justify-content: center !important;
+  text-align: center;
 }

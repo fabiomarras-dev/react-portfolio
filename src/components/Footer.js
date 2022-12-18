@@ -2,28 +2,14 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer py-5'>
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-4 col col-md-6 col-sm-6'>
-                    <div className='d-flex '>
-                        <p>Brasilia...</p>
-                    </div>
-                    <div className='d-flex '>
-                        <p>DF</p>
-                    </div>
-                </div>
-                <div className='col-lg-3 col-md-2 col-sm-6'>
-                    <div className='row'>
+     
+                <div className='col-lg-12 col-md-12 col-sm-12'>
+                    <div className='row footer-row'>
                         <div className='col'>
-                            <a href="footer-nav">Home</a>
-                            <a href="footer-nav">Home</a>
-                            <a href="footer-nav">Home</a>
-                        </div>
-                        <div className='col'>
-                            <a href="footer-nav">Home</a>
-                            <a href="footer-nav">Home</a>
-                            <a href="footer-nav">Home</a>
+                            <p>Brasilia - DF/Brazil</p>
                         </div>
                     </div>
                 </div>
