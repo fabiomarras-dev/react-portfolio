@@ -164,7 +164,7 @@ h4 {
   margin-left: -0.0625rem;
   width: 0.125rem;
   height: 100%;
-  background: blue;
+  background: #1e1e1e;
   z-index: 1;
 }
 
@@ -190,7 +190,7 @@ h4 {
   border-radius: 50%;
   border: 0.3125rem solid;
   color: orange;
-  background: red;
+  background: #1e1e1e;
   margin-top: 0.625rem;
   z-index: 3;
 }
@@ -198,7 +198,7 @@ h4 {
 .timeline-content {
   width: 95%;
   padding: 0 0.9375rem;
-  color: grey;
+  color: white;
   direction: ltr;
 }
 
@@ -250,6 +250,7 @@ h4 {
 .popup-image {
   width: 45rem;
   padding: 0 0.5rem;
+  height: 17rem;
 }
 
 .popup-text {
