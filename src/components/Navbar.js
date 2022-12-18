@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (   
-        <nav className="navbar navbar-expand-lg shadow-sm">
+        <nav className="navbar navbar-expand-lg shadow-sm sticky-top">
             <div className="container">
                 <a className="navbar-brand" href="/#"><h1>React Portfolio</h1></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,10 +13,10 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="/#">Home</a>
+                        <Link smooth={true} className="nav-link" href="/#">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/#">Link</a>
+                        <Link smooth={true} className="nav-link" href="/#">Link</Link>
                     </li>
                     </ul>
                     <ul className="navbar-nav ms-auto social-icons">

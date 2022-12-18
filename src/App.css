@@ -299,3 +299,13 @@ h4 {
   padding: 1rem 1rem 1rem 1rem;
   margin-bottom: 1rem;
 }
+
+/* footer */
+.footer {
+
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
