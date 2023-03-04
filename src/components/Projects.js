@@ -23,7 +23,7 @@ const openPopupboxProject1 = () =>{
 const popupboxConfigProject1 = {
     titleBar: {
         enable: true,
-        text: "Project Preview",
+        text: "Project 1",
     },
 }
 
@@ -43,7 +43,7 @@ const openPopupboxProject2 = () =>{
 const popupboxConfigProject2 = {
     titleBar: {
         enable: true,
-        text: "Project Preview",
+        text: "Project 2",
     },
 }
 
@@ -63,7 +63,7 @@ const openPopupboxProject3 = () =>{
 const popupboxConfigProject3 = {
     titleBar: {
         enable: true,
-        text: "Project Preview",
+        text: "Project 3",
     },
 }
 
@@ -83,7 +83,7 @@ const openPopupboxProject4 = () =>{
 const popupboxConfigProject4 = {
     titleBar: {
         enable: true,
-        text: "Project Preview",
+        text: "Project 4",
     },
 }
 
@@ -109,6 +109,7 @@ const popupboxConfigProject4 = {
                     <img className='projects-image' src={Projeto} alt=""></img>
                 </div>
             </div>
+            {/* still need to fix this area*/}
             <PopupboxContainer {...popupboxConfigProject1}/>
             <PopupboxContainer {...popupboxConfigProject2}/>
             <PopupboxContainer {...popupboxConfigProject3}/>
