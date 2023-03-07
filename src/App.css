@@ -114,6 +114,7 @@ nav .navbar-nav li a.active, .navbar-nav li a.active:focus {
 .btn-main-offer:hover {
   background-color: white;
   color: orange;
+  cursor: pointer;
 }
 
 /* Body */
@@ -143,6 +144,10 @@ h4 {
 }
 
 /* About Me */
+.aboutme-wrapper {
+  background-color: #1e1e1e;
+}
+
 .carousel-item img {
   max-height: 100%;
   max-width: 100%;
@@ -302,6 +307,18 @@ h4 {
   border-color: orange;
   padding: 1rem 1rem 1rem 1rem;
   margin-bottom: 1rem;
+}
+
+.contactMe a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.contactMe a:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: orange;
 }
 
 /* footer */

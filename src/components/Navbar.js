@@ -5,7 +5,7 @@ const Navbar = () => {
     return (   
         <nav className="navbar navbar-expand-lg shadow-sm sticky-top">
             <div className="container">
-                <a className="navbar-brand" href="/"><h1>React Portfolio</h1></a>
+                <a className="navbar-brand" href="/"><h1>FabioDev</h1></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-grip-lines"></i>
                 </button>
@@ -19,10 +19,10 @@ const Navbar = () => {
                         <Link to="aboutme" offset={-80} className="nav-link" href="/#">About Me</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="experience" offset={-100} className="nav-link" href="/#">Experience</Link>
+                        <Link to="experience" offset={-110} className="nav-link" href="/#">Experience</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="projects" offset={-80} className="nav-link" href="/#">My Projects</Link>
+                        <Link to="projects" offset={-80} className="nav-link" href="/#">Projects</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="contactme" offset={-80} className="nav-link" href="/#">Contact Me</Link>

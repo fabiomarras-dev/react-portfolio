@@ -1,19 +1,21 @@
 import React from 'react';
 import Projeto from '../images/projeto.png';
+import Coolcars from '../images/coolcars.png';
+import Soon from '../images/soon.png';
 //react popup box
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import 'react-popupbox/dist/react-popupbox.css';
 
-
+//*need to fix titles
 const Projects = () => {
 
 //first project
 const openPopupboxProject1 = () =>{
     const content = (
         <>
-        <img className='popup-image' src={Projeto} alt="Project1"></img>
-        <p className='popup-text'>Project1 ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices laoreet tortor non consequat. Sed varius rhoncus eleifend.</p> 
-        <a className='hyper-link' onClick={() => window.open('https://github.com/todoketee')}>https://github.com/todoketee</a>
+        <img className='popup-image' src={Projeto} alt="React-Portfolio"></img>
+        <p className='popup-text'>React Portfolio: this very website, which is a portfolio made with the help of React and Bootstrap.</p> 
+        <p className='popup-text'>Link of the code on github:<a className='hyper-link' onClick={() => window.open('https://github.com/todoketee/react-portfolio')}>https://github.com/todoketee/react-portfolio</a></p>
         </>
     )
 
@@ -23,7 +25,7 @@ const openPopupboxProject1 = () =>{
 const popupboxConfigProject1 = {
     titleBar: {
         enable: true,
-        text: "Project 1",
+        text: "Project Preview",
     },
 }
 
@@ -31,9 +33,12 @@ const popupboxConfigProject1 = {
 const openPopupboxProject2 = () =>{
     const content = (
         <>
-        <img className='popup-image' src={Projeto} alt="Project1"></img>
-        <p className='popup-text'>Project2 ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices laoreet tortor non consequat. Sed varius rhoncus eleifend.</p> 
-        <a className='hyper-link' onClick={() => window.open('https://github.com/todoketee')}>https://github.com/todoketee</a>
+        <img className='popup-image' src={Coolcars} alt="Cool-cars"></img>
+        <p className='popup-text'>Cool Cars: which is a cars gallery made with Javascript and Html.</p> 
+        <p className='popup-text'>Link of the code on github:<a className='hyper-link' onClick={() => window.open('https://github.com/todoketee/javascript-gallery')}>https://github.com/todoketee/javascript-gallery</a>
+        <br/>
+        Link of the website:<a className='hyper-link' onClick={() => window.open('https://javascript-gallery.vercel.app/')}>https://javascript-gallery.vercel.app/</a>
+        </p>
         </>
     )
 
@@ -43,7 +48,7 @@ const openPopupboxProject2 = () =>{
 const popupboxConfigProject2 = {
     titleBar: {
         enable: true,
-        text: "Project 2",
+        text: "Project Preview",
     },
 }
 
@@ -51,8 +56,8 @@ const popupboxConfigProject2 = {
 const openPopupboxProject3 = () =>{
     const content = (
         <>
-        <img className='popup-image' src={Projeto} alt="Project1"></img>
-        <p className='popup-text'>Project3 ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices laoreet tortor non consequat. Sed varius rhoncus eleifend.</p> 
+        <img className='popup-image' src={Soon} alt="Soon"></img>
+        <p className='popup-text'>Coming soon...</p> 
         <a className='hyper-link' onClick={() => window.open('https://github.com/todoketee')}>https://github.com/todoketee</a>
         </>
     )
@@ -63,7 +68,7 @@ const openPopupboxProject3 = () =>{
 const popupboxConfigProject3 = {
     titleBar: {
         enable: true,
-        text: "Project 3",
+        text: "Project Preview",
     },
 }
 
@@ -71,8 +76,8 @@ const popupboxConfigProject3 = {
 const openPopupboxProject4 = () =>{
     const content = (
         <>
-        <img className='popup-image' src={Projeto} alt="Project1"></img>
-        <p className='popup-text'>Project4 ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices laoreet tortor non consequat. Sed varius rhoncus eleifend.</p> 
+        <img className='popup-image' src={Soon} alt="Soon"></img>
+        <p className='popup-text'>Coming soon...</p> 
         <a className='hyper-link' onClick={() => window.open('https://github.com/todoketee')}>https://github.com/todoketee</a>
         </>
     )
@@ -83,30 +88,30 @@ const openPopupboxProject4 = () =>{
 const popupboxConfigProject4 = {
     titleBar: {
         enable: true,
-        text: "Project 4",
+        text: "Project Preview",
     },
 }
 
   return (
    <div id='projects' className='projects-wrapper'>
         <div className='container'>
-            <h1 className='text-center py-5'>My Projects</h1>
+            <h1 className='text-center py-5'>Projects</h1>
 
             <div className='d-flex row'>
                 <div className='col-sm-5 d-block mx-auto row overflow' onClick={openPopupboxProject1}>
-                    <img className='projects-image' src={Projeto} alt=""></img>
+                    <img className='projects-image' src={Projeto} alt="React-Portfolio"></img>
                 </div>
                 <div className='col-sm-5 d-block mx-auto row overflow' onClick={openPopupboxProject2}>
-                    <img className='projects-image' src={Projeto} alt=""></img>
+                    <img className='projects-image' src={Coolcars} alt="Cool-cars"></img>
                 </div>
             </div>
 
             <div className='row'>
                 <div className='col-sm-5 d-block mx-auto row overflow' onClick={openPopupboxProject3}>
-                    <img className='projects-image' src={Projeto} alt=""></img>
+                    <img className='projects-image' src={Soon} alt="Soon"></img>
                 </div>
                 <div className='col-sm-5 d-block mx-auto row overflow' onClick={openPopupboxProject4}>
-                    <img className='projects-image' src={Projeto} alt=""></img>
+                    <img className='projects-image' src={Soon} alt="Soon"></img>
                 </div>
             </div>
             {/* still need to fix this area*/}

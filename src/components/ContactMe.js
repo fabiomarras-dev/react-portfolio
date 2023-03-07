@@ -11,21 +11,21 @@ const ContactMe = () => {
                         <div className='box'>
                             <i class="fas fa-envelope fa-3x"></i>
                             <h3>Email</h3>
-                            <p>Descrição</p>
+                            <p>-</p>
                         </div>
                     </div>
                     <div className='col-md-4'>
                         <div className='box'>
                             <i class="fab fa-linkedin fa-3x"></i>
                             <h3>LinkedIn</h3>
-                            <p>Descrição</p>
+                            <a href="https://www.linkedin.com/in/fabio-marras-1911511b9/" target="_blank">https://www.linkedin.com/in/fabio-marras-1911511b9/</a>
                         </div>
                     </div>
                     <div className='col-md-4'>
                         <div className='box'>
-                            <i class="fab fa-whatsapp fa-3x"></i>
-                            <h3>WhatsApp</h3>
-                            <p>Descrição</p>
+                            <i class="fab fa-github fa-3x"></i>
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/todoketee" target="_blank">https://github.com/todoketee</a>
                         </div>
                     </div>
                 </div>
