@@ -34,9 +34,24 @@ const AboutMe = () => {
 
               <div className="col-lg-6 col-xm-12">
                   <h1>About Me</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices laoreet tortor non consequat. Sed varius rhoncus eleifend. Suspendisse eu lectus id neque commodo mattis. Etiam a ligula sit amet leo placerat ultricies mollis semper nibh. Praesent vehicula orci ac felis imperdiet, sit amet rhoncus augue molestie. Vestibulum fermentum nulla lorem, in hendrerit libero ultricies nec. Nam urna enim, tempor vel cursus id, posuere id nibh. Duis bibendum arcu vitae arcu tempor, in convallis felis vehicula. Mauris blandit vulputate velit, quis venenatis lectus. Phasellus sodales nunc vel mattis laoreet. Ut laoreet eros at velit malesuada aliquet. Vivamus nec tortor non nunc efficitur luctus a et sapien. Mauris mattis tortor sit amet arcu iaculis sodales. Proin elementum quam ante, eget luctus odio placerat at.
-
-                  Pellentesque varius ante quis blandit laoreet. Curabitur at sollicitudin nisl. Maecenas at tristique sapien, vitae mollis dui. Vestibulum condimentum luctus pellentesque. Suspendisse tempus risus ligula, id consectetur mi scelerisque at. Nam id lacus ut eros euismod hendrerit ac commodo arcu. Aenean a nisl id nisi fermentum convallis. Phasellus sagittis lorem vitae velit gravida, facilisis mollis leo dictum. Duis pharetra ipsum erat, nec laoreet eros porttitor nec. Sed at consequat nisl, eget tempus ex. Quisque consectetur velit nec enim consequat ultricies. Praesent placerat ornare quam, et viverra urna scelerisque in. Phasellus mollis eu nisl a laoreet. Morbi placerat neque purus, non placerat lacus posuere in.
+                  <p>Hello! My name is Fabio Marras, I'm currently living in the Federal District in Brazil, and I'm a college graduate in Information System looking for a job as a web developer. I was born and raised in Switzerland, my family moved to Brazil when I was 10 years old, and I share both the Swiss and Brazilian nationalities, so for that reason I have a lot of knowledge in foreign languages.
+                  </p>
+                  <p> During my college graduation, aside from the mandatory college internship, I was sadly not able to get into a proper development internship, so the only working experience I got in the web development area is from my college internship and projects I have on github. Hence why I'm making this portfolio website: to show a bit of what I can do and hope I can finally enroll into the job market and gain experience.
+                  </p>
+                  
+                  <h1>Skills</h1>
+                  <p>Thanks to what I learned being part of the development team during the mandatory internship and thanks to some practice projects on github, I have some knowledge in the following technologies:
+                  <ul>
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>Html/CSS</li>
+                    <li>React</li>
+                    <li>Javascript</li>
+                    <li>MySql</li>
+                  </ul>
+                  I also have some notions of technical support, thanks to a 1-year internship I took part in at a company called "SKILL.COM". 
+                  </p>
+                  <p>And since I spent a good part of my life in both Brazil and Switzerland, I gained a lot of knowledge in different languages, such as <span>native French</span> (because I was born and raised in Switzerland), <span>fluent Portuguese</span> and <span>advanced English</span> because I used to study english as a hobby.
                   </p>
               </div>
           </div>
