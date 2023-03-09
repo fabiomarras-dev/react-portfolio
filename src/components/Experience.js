@@ -12,9 +12,9 @@ const Experience = () => {
             <div className='marker'>
             </div>
             <div className='timeline-content'>
-              <h3>2014-2015</h3>
+              <h3>2017</h3>
               <p>
-                something
+              It was the year I enrolled in college at the "UDF Centro Universitario". It was also in this same exact year that I began my internship at "SKILL.COM", where I learned about technical support stuff, such as computer maintenance, swapping and installing hardware parts, and operating system formatting.
               </p>
             </div>
           </div>
@@ -23,9 +23,9 @@ const Experience = () => {
             <div className='marker'>
             </div>
             <div className='timeline-content'>
-              <h3>2014-2015</h3>
+              <h3>2018</h3>
               <p>
-                something
+              It was the year I finished my internship; I enrolled in February 2017 and left in March 2018.
               </p>
             </div>
           </div>
@@ -34,9 +34,9 @@ const Experience = () => {
             <div className='marker'>
             </div>
             <div className='timeline-content'>
-              <h3>2014-2015</h3>
+              <h3>2021</h3>
               <p>
-                something
+              It was the year I began working at my mandatory internship from college. The class was divided into two teams: documentation and development. I was part of the development team, and we were asked to make a web application that would manage classroom scheduling. The technologies we used for that application were Laravel, PHP, MySql, and Bootstrap. The internship started in April 2021 and finished in May 2021.
               </p>
             </div>
           </div>
@@ -45,20 +45,9 @@ const Experience = () => {
             <div className='marker'>
             </div>
             <div className='timeline-content'>
-              <h3>2014-2015</h3>
+              <h3>2022</h3>
               <p>
-                something
-              </p>
-            </div>
-          </div>
-
-          <div  className='timeline-block timeline-block-right'>
-            <div className='marker'>
-            </div>
-            <div className='timeline-content'>
-              <h3>2014-2015</h3>
-              <p>
-                something
+              It was the year I graduated. 
               </p>
             </div>
           </div>

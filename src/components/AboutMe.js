@@ -49,7 +49,7 @@ const AboutMe = () => {
                     <li>Javascript</li>
                     <li>MySql</li>
                   </ul>
-                  I also have some notions of technical support, thanks to a 1-year internship I took part in at a company called "SKILL.COM". 
+                  I also have some notions of <span>technical support</span>, thanks to a 1-year internship I took part in at a company called "SKILL.COM". 
                   </p>
                   <p>And since I spent a good part of my life in both Brazil and Switzerland, I gained a lot of knowledge in different languages, such as <span>native French</span> (because I was born and raised in Switzerland), <span>fluent Portuguese</span> and <span>advanced English</span> because I used to study english as a hobby.
                   </p>
