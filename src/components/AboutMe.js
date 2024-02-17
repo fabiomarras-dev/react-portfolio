@@ -1,6 +1,6 @@
 import React from "react";
-import Author from "../fabio.png";
-import Author2 from "../fabio2.png";
+import Author from "../Fabio.jpg";
+import Author2 from "../Fabio2.jpg";
 
 const AboutMe = () => {
   return (
