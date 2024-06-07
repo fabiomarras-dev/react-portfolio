@@ -30,12 +30,12 @@ const Navbar = () => {
                     </ul>
                     <ul className="navbar-nav ms-auto social-icons">
                     <li className="nav-item">
-                        <a className="nav-link" href="https://github.com/todoketee" target="_blank">
+                        <a className="nav-link" href="https://github.com/fabiomarras-dev" target="_blank">
                             <i className="fab fa-github"></i>
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="https://www.linkedin.com/in/fabio-marras-1911511b9/" target="_blank">
+                        <a className="nav-link" href="https://www.linkedin.com/in/fabiomarras-dev/" target="_blank">
                             <i className="fab fa-linkedin"></i>
                         </a>
                     </li>
