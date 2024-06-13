@@ -18,14 +18,14 @@ const ContactMe = () => {
                         <div className='box'>
                             <i class="fab fa-linkedin fa-3x"></i>
                             <h3>LinkedIn</h3>
-                            <a href="https://www.linkedin.com/in/fabio-marras-1911511b9/" target="_blank">https://www.linkedin.com/in/fabio-marras-1911511b9/</a>
+                            <a href="https://www.linkedin.com/in/fabiomarras-dev/" target="_blank">https://www.linkedin.com/in/fabiomarras-dev/</a>
                         </div>
                     </div>
                     <div className='col-md-4'>
                         <div className='box'>
                             <i class="fab fa-github fa-3x"></i>
                             <h3>GitHub</h3>
-                            <a href="https://github.com/todoketee" target="_blank">https://github.com/todoketee</a>
+                            <a href="https://github.com/fabiomarras-dev" target="_blank">https://github.com/fabiomarras-dev</a>
                         </div>
                     </div>
                 </div>
