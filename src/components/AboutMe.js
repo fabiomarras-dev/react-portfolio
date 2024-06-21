@@ -34,7 +34,7 @@ const AboutMe = () => {
 
               <div className="col-lg-6 col-xm-12">
                   <h1>About Me</h1>
-                  <p>Hello! My name is Fabio Marras, I'm currently living in the Federal District in Brazil, and I'm a college graduate in Information System looking for a job as a web developer. I was born and raised in Switzerland, my family moved to Brazil when I was 10 years old, and I share both the Swiss and Brazilian nationalities, so for that reason I have a lot of knowledge in foreign languages.
+                  <p>Hello! My name is Fabio Marras, I'm currently living in Geneva in Switzerland, and I'm a college graduate in Information System looking for a job as a web developer. I was born and raised in Switzerland, my family moved to Brazil when I was 10 years old, and I share both the Swiss and Brazilian nationalities, so for that reason I have a lot of knowledge in foreign languages.
                   </p>
                   <p> During my college graduation, aside from the mandatory college internship, I was sadly not able to get into a proper development internship, so the only working experience I got in the web development area is from my college internship and projects I have on github. Hence why I'm making this portfolio website: to show a bit of what I can do and hope I can finally enroll into the job market and gain experience.
                   </p>

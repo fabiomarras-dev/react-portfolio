@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className='col-lg-12 col-md-12 col-sm-12'>
                     <div className='row footer-row'>
                         <div className='col'>
-                            <p>Brasilia - DF/Brazil</p>
+                            <p>Geneva - Switzerland</p>
                         </div>
                     </div>
                 </div>
