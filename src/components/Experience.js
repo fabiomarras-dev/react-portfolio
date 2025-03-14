@@ -47,7 +47,7 @@ const Experience = () => {
             <div className='timeline-content'>
               <h3>2022</h3>
               <p>
-              It was the year I graduated. test 
+              It was the year I graduated.
               </p>
             </div>
           </div>
