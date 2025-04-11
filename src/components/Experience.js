@@ -14,7 +14,7 @@ const Experience = () => {
             <div className='timeline-content'>
               <h3>2017</h3>
               <p>
-              It was the year I enrolled in college at the "UDF Centro Universitario". It was also in this same exact year that I began my internship at "SKILL.COM", where I learned about technical support stuff, such as computer maintenance, swapping and installing hardware parts, and operating system formatting.
+              In 2017, I commenced my academic journey at "UDF Centro Universitario" while simultaneously embarking on a professional internship at "SKILL.COM". During this internship, I gained valuable experience in technical support, specializing in computer maintenance, hardware installation and replacement, as well as operating system formatting.
               </p>
             </div>
           </div>
